@@ -4,7 +4,7 @@ import pandas as pd
 
 # 3) Leer las bases de datos
 #    - Si están en CSV:
-df1 = pd.read_csv('base1.csv')
+df1 = pd.read_csv('happiness-cantril-ladder.csv')
 df2 = pd.read_csv('base2.csv')
 #    - O bien, si prefieres Excel:
 # df1 = pd.read_excel('base1.xlsx', sheet_name='Hoja1')
